@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# Contest - I
 
 ## 1. Shipment Service (easy)
 
