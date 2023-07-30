@@ -15,7 +15,7 @@ You are provided with 0 ether. After the hack you should have 1 ether.
 
 Contract Code:
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity 0.8.19;
@@ -93,7 +93,7 @@ To attain the desired result, modify the index of the derivation path used for g
 
 The JS script is as follows:
 
-```
+```javascript
 const { ethers } = require('ethers');
 
 // Generate random mnemonic
@@ -150,7 +150,7 @@ for (let i = 0; i >= 0; i++) {
 ```
 ### Output
 
-```
+```json
   {
     address: '0x504C3bd2d330170a1AE0a48C377007b906D4B998',
     publicKey: '0x0465e5ecb71749c4d7236dfa7ff7f1cbed66b03914ee49369f54386e95fa6823ad590e40ba17d8dd0205d80f5acb7e6cefb6199383b8ed47e7f07e14dcca96dafa',
@@ -160,7 +160,7 @@ for (let i = 0; i >= 0; i++) {
 
 The Foundry setup is as follows:
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
@@ -213,7 +213,7 @@ contract KC is Test {
 ```
 ### Output
 
-```
+```cmd
 Running 1 test for test/KeyCraft.t.sol:KC
 [PASS] testKeyCraft() (gas: 81980)
 Test result: ok. 1 passed; 0 failed; 0 skipped; finished in 1.48ms
