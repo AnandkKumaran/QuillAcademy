@@ -12,7 +12,7 @@ user1 that supplies 100 units to the contract and removes 200 units . Use the fo
 
 Contract Code:
 
-```
+```solidity
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
@@ -100,7 +100,7 @@ The vulnerability lies in the **transfer()** function. It doesn't comparing the 
 
 The Foundry setup is as follows:
 
-```
+```solidity
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
